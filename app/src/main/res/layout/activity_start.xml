@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mmi.colorgame.colorgameclient.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textView_startAct_title"
+        android:id="@+id/textView_welcome"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textView_startAct_mode"
+        android:id="@+id/textView_chooseMode"
+        android:layout_below="@+id/textView_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonText_startAct_single"
+        android:id="@+id/button_singleplayer"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="startSingleplayer" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonText_startAct_multi"
+        android:id="@+id/button_multiplayer"
+        android:layout_below="@+id/button_singleplayer"
+        android:layout_alignLeft="@+id/button_singleplayer"
+        android:layout_alignStart="@+id/button_singleplayer"
+        android:layout_marginTop="52dp"
+        android:onClick="startMultiplayer" />
+</RelativeLayout>

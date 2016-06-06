@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ColorGameClient</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="menu_activity_play_restart">Restart game</string>
+
+
+    <string name="buttonText_connect">Connect!</string>
+    <string name="ip">192.168.0.111</string>
+    <string name="textView_connect_ip">IP:</string>
+    <string name="textView_connect_title">Connection to server</string>
+
+    <string name="textView_startAct_title">Welcome to the Color-Game!</string>
+    <string name="textView_startAct_mode">Please chose a mode</string>
+    <string name="buttonText_startAct_single">Singleplayer</string>
+    <string name="buttonText_startAct_multi">Multiplayer</string>
+
+    <string name="buttonText_action">Action!</string>
+    <string name="buttonText_Score">Score:</string>
+
+</resources>
