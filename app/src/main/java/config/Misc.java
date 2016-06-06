@@ -70,7 +70,7 @@ public class Misc {
     /**
      * Time until timeout in milliseconds (when calling read from stream).
      */
-    public static final int TIMEOUT = 10000;
+    public static final int TIMEOUT = 1000000;
     /**
      * String to display how much time the user has to take the control image.
      */
